@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  count_value: MyString
+  unit: MyString
+  recipe: one
+  product: one
+
+two:
+  count_value: MyString
+  unit: MyString
+  recipe: two
+  product: two

@@ -9,3 +9,9 @@
         data-bs-content="Amazing content, right ?">
         Click to toggle popover
 </button>  
+
+<% if user_signed_in? %>
+  <p> Hello <%= current_user.email %> </p> 
+<% else %> 
+  <p> Not User </p>
+<% end %>
