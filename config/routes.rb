@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
   get 'home/index'
   root to: "home#index"
-  # get "/home", to: "home#index"
+  
+  resources :products
 
 end
